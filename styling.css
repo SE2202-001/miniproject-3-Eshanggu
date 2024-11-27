@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Main container styling */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff; /* White container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .header h1 {
+    color: #333333; /* Dark gray */
+    margin-bottom: 20px;
+  }
+  
+  /* Section headings */
+  section h2 {
+    color: #0073e6; /* Bright blue */
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  /* File input styling */
+  .file-input {
+    display: block;
+    margin: 10px auto 20px auto;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Filter and sort controls */
+  .filter-item,
+  .sorting {
+    margin: 15px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555; /* Medium gray */
+    font-size: 0.9rem;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0073e6; /* Bright blue */
+    color: #ffffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5; /* Darker blue */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  /* Job listings */
+  .job-listings {
+    margin-top: 20px;
+  }
+  
+  .job {
+    background-color: #f9f9f9; /* Light gray for job entries */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: left;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .job:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .job h3 {
+    color: #0073e6; /* Blue for job titles */
+    margin: 0 0 5px 0;
+  }
+  
+  .job p {
+    color: #555555; /* Medium gray for job details */
+    margin: 0;
+  }
+  
+  /* Error messages */
+  .errors p {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    margin-top: 20px;
+    color: #aaaaaa; /* Light gray */
+    font-size: 0.8rem;
+  }
+  
